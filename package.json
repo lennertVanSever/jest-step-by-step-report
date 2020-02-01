@@ -1,0 +1,16 @@
+{
+  "name": "jest-step-by-step-report",
+  "version": "0.1.0",
+  "description": "Only indicate the status of a test and only show the first failing test",
+  "main": "index.js",
+  "keywords": [
+    "jest",
+    "reports",
+    "test-driven-development"
+  ],
+  "author": "lennert van sever",
+  "license": "ISC",
+  "dependencies": {
+    "jest-util": "^25.1.0"
+  }
+}
