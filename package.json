@@ -1,6 +1,6 @@
 {
   "name": "jest-step-by-step-report",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A simple jest reporter that will only indicate the status of a test and only show the first failing test",
   "main": "index.js",
   "homepage": "https://github.com/lennertVanSever/jest-step-by-step-report#readme",

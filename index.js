@@ -51,9 +51,10 @@ class stepByStepReport {
   onTestResult(test, testResult) {
     this.logResults(testResult);
   }
-  finalLog({ numPassedTests, numTotalTests, numRuntimeErrorTestSuites }) {
+  finalLog({ numPassedTests, numTotalTests, numRuntimeErrorTestSuites, testResults }) {
     if (numRuntimeErrorTestSuites) {
       console.log(log.type.bold, log.color.red, 'Je hebt een syntax error, check je code! (╯°□°）╯︵ ┻━┻');
+      console.log(testResults[0].failureMessage);
     } else {
       const completeness = numPassedTests / numTotalTests * 100;
       if (completeness === 100) {
